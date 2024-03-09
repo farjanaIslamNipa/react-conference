@@ -1,0 +1,374 @@
+{
+  "conferences": [
+    {
+      "id": 1,
+      "title": "Freezing Edge 2023",
+      "subtitle": "The edge isn't bleeding, it's freezing!",
+      "date": "02 September, 2023",
+      "organizers": [
+        {
+          "img": "",
+          "name": "Siddhartha",
+          "details": "Lorem ipsum dolor sit amet, con sec tetur ad."
+        },
+        {
+          "img": "",
+          "name": "Candide",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        },
+        {
+          "img": "",
+          "name": "The Little Prince",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        }
+      ],
+      "speakers": [
+        {
+          "img": "",
+          "name": "Ronald Richards",
+          "details": "Lorem ipsum dolor sit amet, con sec tetur ad."
+        },
+        {
+          "img": "",
+          "name": "Ronald Richards",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        },
+        {
+          "img": "",
+          "name": "Cameron Williamson",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        }
+      ],
+      "schedules": [
+        {
+          "day": "Wednesday",
+          "date": "February 11, 2014",
+          "registrationDuration": "05:00-06:00",
+          "systemDuration": "06:00-13:30",
+          "lunchDuration": "09:00-10:00",
+          "breakDuration": "11:30-12:00"
+        },
+        {
+          "day": "Wednesday",
+          "date": "October 31, 2017",
+          "registrationDuration": "05:00-06:00",
+          "systemDuration": "06:00-13:30",
+          "lunchDuration": "09:00-10:00",
+          "breakDuration": "11:30-12:00"
+        }
+      ],
+      "sponsors": [
+        {
+          "img": "",
+          "name": "Louis Vuitton",
+          "details": "Lorem ipsum dolor sit amet, con sec tetur ad."
+        },
+        {
+          "img": "",
+          "name": "MasterCard",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        },
+        {
+          "img": "",
+          "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Design systems for beginners",
+      "subtitle": "The workshop will provide you with all the basics",
+      "date": "02 September, 2023",
+      "organizers": [
+        {
+          "img": "",
+          "name": "Siddhartha",
+          "details": "Lorem ipsum dolor sit amet, con sec tetur ad."
+        },
+        {
+          "img": "",
+          "name": "Candide",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        },
+        {
+          "img": "",
+          "name": "The Little Prince",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        }
+      ],
+      "speakers": [
+        {
+          "img": "",
+          "name": "Ronald Richards",
+          "details": "Lorem ipsum dolor sit amet, con sec tetur ad."
+        },
+        {
+          "img": "",
+          "name": "Ronald Richards",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        },
+        {
+          "img": "",
+          "name": "Cameron Williamson",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        }
+      ],
+      "schedules": [
+        {
+          "day": "Wednesday",
+          "date": "February 11, 2014",
+          "registrationDuration": "05:00-06:00",
+          "systemDuration": "06:00-13:30",
+          "lunchDuration": "09:00-10:00",
+          "breakDuration": "11:30-12:00"
+        },
+        {
+          "day": "Wednesday",
+          "date": "October 31, 2017",
+          "registrationDuration": "05:00-06:00",
+          "systemDuration": "06:00-13:30",
+          "lunchDuration": "09:00-10:00",
+          "breakDuration": "11:30-12:00"
+        }
+      ],
+      "sponsors": [
+        {
+          "img": "",
+          "name": "Louis Vuitton",
+          "details": "Lorem ipsum dolor sit amet, con sec tetur ad."
+        },
+        {
+          "img": "",
+          "name": "MasterCard",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        },
+        {
+          "img": "",
+          "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Web Components - Write once & run ",
+      "subtitle": "The workshop will provide you with all the basics",
+      "date": "02 September, 2023",
+      "organizers": [
+        {
+          "img": "",
+          "name": "Siddhartha",
+          "details": "Lorem ipsum dolor sit amet, con sec tetur ad."
+        },
+        {
+          "img": "",
+          "name": "Candide",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        },
+        {
+          "img": "",
+          "name": "The Little Prince",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        }
+      ],
+      "speakers": [
+        {
+          "img": "",
+          "name": "Ronald Richards",
+          "details": "Lorem ipsum dolor sit amet, con sec tetur ad."
+        },
+        {
+          "img": "",
+          "name": "Ronald Richards",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        },
+        {
+          "img": "",
+          "name": "Cameron Williamson",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        }
+      ],
+      "schedules": [
+        {
+          "day": "Wednesday",
+          "date": "February 11, 2014",
+          "registrationDuration": "05:00-06:00",
+          "systemDuration": "06:00-13:30",
+          "lunchDuration": "09:00-10:00",
+          "breakDuration": "11:30-12:00"
+        },
+        {
+          "day": "Wednesday",
+          "date": "October 31, 2017",
+          "registrationDuration": "05:00-06:00",
+          "systemDuration": "06:00-13:30",
+          "lunchDuration": "09:00-10:00",
+          "breakDuration": "11:30-12:00"
+        }
+      ],
+      "sponsors": [
+        {
+          "img": "",
+          "name": "Louis Vuitton",
+          "details": "Lorem ipsum dolor sit amet, con sec tetur ad."
+        },
+        {
+          "img": "",
+          "name": "MasterCard",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        },
+        {
+          "img": "",
+          "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Accessibility testing for developers",
+      "subtitle": "The workshop is split into several modules.",
+      "date": "03 September, 2023",
+      "organizers": [
+        {
+          "img": "",
+          "name": "Siddhartha",
+          "details": "Lorem ipsum dolor sit amet, con sec tetur ad."
+        },
+        {
+          "img": "",
+          "name": "Candide",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        },
+        {
+          "img": "",
+          "name": "The Little Prince",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        }
+      ],
+      "speakers": [
+        {
+          "img": "",
+          "name": "Ronald Richards",
+          "details": "Lorem ipsum dolor sit amet, con sec tetur ad."
+        },
+        {
+          "img": "",
+          "name": "Ronald Richards",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        },
+        {
+          "img": "",
+          "name": "Cameron Williamson",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        }
+      ],
+      "schedules": [
+        {
+          "day": "Wednesday",
+          "date": "February 11, 2014",
+          "registrationDuration": "05:00-06:00",
+          "systemDuration": "06:00-13:30",
+          "lunchDuration": "09:00-10:00",
+          "breakDuration": "11:30-12:00"
+        },
+        {
+          "day": "Wednesday",
+          "date": "October 31, 2017",
+          "registrationDuration": "05:00-06:00",
+          "systemDuration": "06:00-13:30",
+          "lunchDuration": "09:00-10:00",
+          "breakDuration": "11:30-12:00"
+        }
+      ],
+      "sponsors": [
+        {
+          "img": "",
+          "name": "Louis Vuitton",
+          "details": "Lorem ipsum dolor sit amet, con sec tetur ad."
+        },
+        {
+          "img": "",
+          "name": "MasterCard",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        },
+        {
+          "img": "",
+          "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "The weird things about React",
+      "subtitle": "Conditional rendering issues in JSX, forwardRef",
+      "date": "03 September, 2023",
+      "organizers": [
+        {
+          "img": "",
+          "name": "Siddhartha",
+          "details": "Lorem ipsum dolor sit amet, con sec tetur ad."
+        },
+        {
+          "img": "",
+          "name": "Candide",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        },
+        {
+          "img": "",
+          "name": "The Little Prince",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        }
+      ],
+      "speakers": [
+        {
+          "img": "",
+          "name": "Ronald Richards",
+          "details": "Lorem ipsum dolor sit amet, con sec tetur ad."
+        },
+        {
+          "img": "",
+          "name": "Ronald Richards",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        },
+        {
+          "img": "",
+          "name": "Cameron Williamson",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        }
+      ],
+      "schedules": [
+        {
+          "day": "Wednesday",
+          "date": "February 11, 2014",
+          "registrationDuration": "05:00-06:00",
+          "systemDuration": "06:00-13:30",
+          "lunchDuration": "09:00-10:00",
+          "breakDuration": "11:30-12:00"
+        },
+        {
+          "day": "Wednesday",
+          "date": "October 31, 2017",
+          "registrationDuration": "05:00-06:00",
+          "systemDuration": "06:00-13:30",
+          "lunchDuration": "09:00-10:00",
+          "breakDuration": "11:30-12:00"
+        }
+      ],
+      "sponsors": [
+        {
+          "img": "",
+          "name": "Louis Vuitton",
+          "details": "Lorem ipsum dolor sit amet, con sec tetur ad."
+        },
+        {
+          "img": "",
+          "name": "MasterCard",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        },
+        {
+          "img": "",
+          "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et condimentum lectus in vel pellentesque arcu non odio. Ut dis eu dolor ac tellus vitae ut."
+        }
+      ]
+    }
+  ]
+}

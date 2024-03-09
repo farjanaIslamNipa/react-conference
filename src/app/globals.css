@@ -8,3 +8,19 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+@media (max-width: 767px) {
+  .small-device-collapse-nav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.3s;
+    white-space: nowrap;
+  }
+}
+
+.nav-item{
+  @apply text-base md:text-[18px] font-medium
+}

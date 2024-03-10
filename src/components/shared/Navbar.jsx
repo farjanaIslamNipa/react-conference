@@ -10,13 +10,13 @@ import closeIcon from '../../assets/close.svg'
 const Navbar = () => {
   const [expand, setExpand] = useState(false);
   return (
-    <div className="px-4 pt-[35px] md:pt-10 md:bg-transparent relative z-50">
+    <div className="px-6 pt-[35px] md:pt-10 md:bg-transparent relative z-50">
       <div className="w-full max-w-[1320px] mx-auto">
         <nav className="flex justify-between items-center">
           {/* Brand Logo */}
           <div>
             <Link href="/">
-              <Image src={logo} alt="Logo" className="h-8" />
+              <Image src={logo} alt="Logo" className="h-4 md:h-8 w-[58px] md:w-[117px]" />
             </Link>
           </div>
 
@@ -28,7 +28,7 @@ const Navbar = () => {
             >
             <div className="flex flex-col md:flex-row items-start md:items-center gap-2 pt-4 md:pt-0 w-[70%] md:w-full bg-white md:bg-transparent h-screen md:h-auto">
                 {expand && (
-                  <div className="absolute right-4 top-[30px] block md:hidden">
+                  <div className="absolute right-6 top-[30px] block md:hidden">
                     <button
                       onClick={() => setExpand(!expand)}
                       className="bg-white transition-all duration-150 hover:bg-opacity-100 rounded p-[8px]"
@@ -40,7 +40,7 @@ const Navbar = () => {
                 <div className="pl-5 pb-6 block md:hidden">
                   <Image src={logo} alt="Logo" className="" height={100} width={100} />
                 </div>
-                <div className="pl-5 md:pl-0 space-y-5 md:space-y-0 space-x-0 md:space-x-[58px] flex flex-col md:flex-row">
+                <div className="pl-5 md:pl-0 space-y-5 md:space-y-0 space-x-0 md:space-x-4 lg:space-x-[58px] flex flex-col md:flex-row">
                   <Link href="#" className='nav-item'>
                     About us
                   </Link>

@@ -12,7 +12,10 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <header className="relative px-6 pt-[70px] md:pt-[100px] lg:pt-[120px] xl:pt-[150px] 2xl:pt-[170px]">
+    <header className="relative ">
+    <div className="absolute top-[80%] md:top-0 left-0 h-[150px] w-[150px] rounded-full bg-[#2286BE] md:bg-[#7C3EFF] blur-[150px]"></div>
+    <div className="absolute top-0 right-0 h-[150px] w-[150px] rounded-full bg-[#BE229C] blur-[160px] z-10"></div>
+    <div className="px-6 pt-[70px] md:pt-[100px] lg:pt-[120px] xl:pt-[150px] 2xl:pt-[170px] z-20">
       <div className="max-w-[600px] lg:max-w-[1550px] mx-auto">
         <div className="absolute left-[37%] md:left-[52%] lg:left-[27%] xl:left-[28.5%] 2xl:left-[29.5%] top-[45px] md:top-[40px] xl:top-[95px] 2xl:top-[120px]">
           <Image src={sketch} alt="Sketch" className="h-10 md:h-[82px]" />
@@ -78,6 +81,7 @@ const HeroSection = () => {
           <Image src={bottomShape} alt="Shape" />
         </div>
       </div>
+    </div>
     </header>
   );
 };

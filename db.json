@@ -375,7 +375,7 @@
     {
       "id": 1,
       "titleImg": "https://i.ibb.co/Xjb5WRs/gold-sponsor.png",
-      "sponsorCategory": [
+      "goldenSponsors": [
         {
           "id": 1,
           "logo": "https://i.ibb.co/fS7Y2m8/Vector.png"
@@ -389,7 +389,7 @@
     {
       "id": 2,
       "titleImg": "https://i.ibb.co/WnGHt6p/silver-sponsor.png",
-      "sponsorCategory": [
+      "silverSponsors": [
         {
           "id": 1,
           "logo": "https://i.ibb.co/0fjQz1g/Vector-2.png"
@@ -407,7 +407,7 @@
     {
       "id": 3,
       "titleImg": "https://i.ibb.co/0ndCbWV/bronze-sponsor.png",
-      "sponsorCategory": [
+      "bronzeSponsors": [
         {
           "id": 1,
           "logo": "https://i.ibb.co/4d71h72/Vector-4.png"

@@ -4,8 +4,8 @@ import Link from "next/link";
 import {useState} from "react";
 import hamburgerIcon from '../../assets/hamburger.svg'
 import logo from '../../assets/react-logo.svg'
-import cn from "@/utils/cn";
 import closeIcon from '../../assets/close.svg'
+import cn from "../../utils/cn";
 
 const Navbar = () => {
   const [expand, setExpand] = useState(false);

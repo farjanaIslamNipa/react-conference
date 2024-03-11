@@ -28,3 +28,7 @@
 .hero-title{
   @apply text-[48px] md:text-[80px] lg:text-[90px] xl:text-[120px] 2xl:text-[140px] font-bold text-secondary text-right leading-[55px] md:leading-[70px] lg:leading-[90px] xl:leading-[120px] 2xl:leading-[140px]
 }
+
+.sidebar-tab{
+  @apply  hover:bg-primary flex items-center gap-x-5 lg:gap-x-[45px] p-2 border rounded-lg cursor-pointer hover:shadow-[rgba(17,_17,_26,_0.1)_0px_4px_16px,_rgba(17,_17,_26,_0.05)_0px_8px_32px] transition-all ease-out duration-100
+}

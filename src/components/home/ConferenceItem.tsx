@@ -15,7 +15,7 @@ const ConferenceItem = ({ conference, index }) => {
             <div
               className={`${
                 index === 4 ? "hidden" : "block"
-              } ${index + 1 === conference.id ? 'bg-primary' : 'bg-light-gray'}  w-[2px] h-full`}
+              } bg-light-gray w-[2px] h-full`}
             ></div>
           </div>
         </div>

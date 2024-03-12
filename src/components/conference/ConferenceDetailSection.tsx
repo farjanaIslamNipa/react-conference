@@ -9,7 +9,7 @@ import SponsorSection from "./SponsorSection";
 
 
 const ConferenceDetailSection = ({conference} : {conference: TConference}) => {
-  const [activeTab, setActiveTab] = useState('organizers')
+  const [activeTab, setActiveTab] = useState('Organizer')
   return (
     <div className="mt-16 grid grid-cols-12 gap-6 lg:gap-10 xl:gap-x-[50px]">
     <div className="col-span-4">
@@ -17,17 +17,17 @@ const ConferenceDetailSection = ({conference} : {conference: TConference}) => {
     </div>
     <div className="col-span-8 bg-off-white py-8 xl:py-[68px] px-8 xl:px-[66px] rounded-lg space-y-6">
       {
-        activeTab === 'organizers' && <OrganizerSection organizers={conference?.organizers} />
+        activeTab === 'Organizer' && <OrganizerSection organizers={conference?.organizers} />
       }
       {
-        activeTab === 'speakers' && <SpeakerSection speakers={conference?.speakers} />
+        activeTab === 'Speaker' && <SpeakerSection speakers={conference?.speakers} />
       }
       {
-        activeTab === 'schedules' && <ScheduleSection schedules={conference?.schedules} />
+        activeTab === 'Schedule' && <ScheduleSection schedules={conference?.schedules} />
       }
       
       {
-        activeTab === 'sponsors' && <SponsorSection sponsors={conference?.sponsors} />
+        activeTab === 'Sponsor' && <SponsorSection sponsors={conference?.sponsors} />
       }
     </div>
   </div>

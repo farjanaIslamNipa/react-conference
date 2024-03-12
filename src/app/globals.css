@@ -32,3 +32,5 @@
 .sidebar-tab{
   @apply  hover:bg-primary flex items-center gap-x-5 lg:gap-x-[45px] p-2 border rounded-lg cursor-pointer hover:shadow-[rgba(17,_17,_26,_0.1)_0px_4px_16px,_rgba(17,_17,_26,_0.05)_0px_8px_32px] transition-all ease-out duration-100
 }
+
+

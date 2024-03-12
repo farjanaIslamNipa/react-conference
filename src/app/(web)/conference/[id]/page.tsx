@@ -1,9 +1,4 @@
 import { TConference } from "../../../..";
-import OrganizerSection from "../../../../components/conference/OrganizerSection";
-import SpeakerSection from "../../../../components/conference/SpeakerSection";
-import SponsorSection from "../../../../components/conference/SponsorSection";
-import ScheduleSection from "../../../../components/conference/ScheduleSection";
-import Sidebar from "../../../../components/conference/Sidebar";
 import ConferenceDetailSection from "../../../../components/conference/ConferenceDetailSection";
 
 
@@ -24,9 +19,6 @@ export const generateStaticParams = async () => {
 const ConferencePage = async ({ params }: TParams) => {
   const res = await fetch(`http://localhost:5000/conferences/${params.id}`);
   const conference = await res.json();
-
-  
-  // const [activeTab, setActiveTab] = useState('organizers')
 
   return (
     <main className="px-6 py-[100px]">

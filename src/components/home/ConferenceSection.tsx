@@ -1,6 +1,7 @@
+import {TConference} from "../..";
 import ConferenceItem from "./ConferenceItem";
 const ConferenceSection = async () => {
-  const res = await fetch("http://localhost:5000/conferences");
+  const res = await fetch("https://react-conference-backend-ten.vercel.app/api/v1/conferences");
   const conferenceData = await res.json();
 
   return (
@@ -10,8 +11,8 @@ const ConferenceSection = async () => {
       </h2>
       <div className="mt-[50px] w-full max-w[1088px] mx-auto flex justify-center">
         <div className="space-y-8 md:space-y-[60px]">
-          {conferenceData?.length &&
-            conferenceData.map((conference, index) => (
+          {conferenceData?.data?.length &&
+            conferenceData.data.map((conference : TConference, index : number) => (
               <ConferenceItem
                 key={conference?.id}
                 conference={conference}

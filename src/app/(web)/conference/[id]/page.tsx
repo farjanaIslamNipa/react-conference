@@ -8,27 +8,28 @@ interface TParams {
   };
 }
 export const generateStaticParams = async () => {
-  const res = await fetch(`http://localhost:5000/conferences`);
+  const res = await fetch('https://react-conference-backend-ten.vercel.app/api/v1/conferences');
   const conference = await res.json();
 
-  return conference.slice(0, 3).map((conference: TConference) => ({
+  return conference?.data?.slice(0, 3).map((conference: TConference) => ({
     id: String(conference.id),
   }));
 };
 
 const ConferencePage = async ({ params }: TParams) => {
-  const res = await fetch(`http://localhost:5000/conferences/${params.id}`);
+
+  const res = await fetch(`https://react-conference-backend-ten.vercel.app/api/v1/conferences/${params.id}`);
   const conference = await res.json();
 
   return (
-    <main className="px-6 py-[100px]">
-      <div className="w-full max-w-[1320px]">
-        <h2 className="text-2xl md:text-5xl font-bold mb-6">
-          {conference?.title}
+    <main className="px-6 pt-[55px] lg:pt-[100px] pb-[90px] lg:pb-[100px]">
+      <div className="w-full max-w-[1320px] mx-auto">
+        <h2 className="text-2xl lg:text-5xl font-bold mb-4 lg:mb-6">
+          {conference?.data?.title}
         </h2>
-        <p className="text-custom-gray">{conference?.subtitle}</p>
+        <p className="text-custom-gray">{conference?.data?.subtitle}</p>
+        <ConferenceDetailSection conference={conference?.data} />
       </div>
-      <ConferenceDetailSection conference={conference} />
     </main>
   );
 };

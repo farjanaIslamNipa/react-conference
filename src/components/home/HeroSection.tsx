@@ -1,3 +1,4 @@
+"use client"
 import sketch from "../../assets/sketch.svg";
 import curve from "../../assets/curve.svg";
 import smallDeviceCurve from "../../assets/small-device-curve.svg";
@@ -11,6 +12,7 @@ import scrollIcon from "../../assets/scroll-icon.svg";
 import Image from "next/image";
 
 const HeroSection = () => {
+
   return (
     <header className="relative ">
     <div className="absolute top-[80%] md:top-0 left-0 h-[150px] w-[150px] rounded-full bg-[#2286BE] md:bg-[#7C3EFF] blur-[150px]"></div>
@@ -58,7 +60,7 @@ const HeroSection = () => {
                     <Image src={topArrow} alt="Buy tickets" />
                   </button>
                 </div>
-                <div className="hidden pr-8 md:pr-10 2xl:pr-20 mt-0 2xl:mt-20 lg:flex flex-col items-end">
+                <div className="hidden pr-8 md:pr-10 2xl:pr-20 mt-0 2xl:mt-20 lg:flex flex-col items-end box bounce-1">
                   <p className="pt-[60px] text-sm -rotate-90">Scroll Down</p>
                   <Image className="mt-1" src={scrollIcon} alt="Scroll Icon" />
                 </div>

@@ -6,11 +6,13 @@ const ScheduleSection = ({ schedules }: { schedules: TSchedule[] }) => {
       {schedules?.map((schedule: TSchedule) => (
         <div
           key={schedule?.id}
-          className="bg-white rounded-lg p-4 w-full flex justify-between"
+          className="bg-white rounded-lg p-5 lg:p-10"
         >
-          <div>
-            <p className="text-xl font-bold mb-4">{schedule?.date}</p>
-            <div className="text-[#0A142F] space-y-4">
+            <div className="flex justify-between items-center mb-4">
+              <p className="text-base md:text-xl font-bold">{schedule?.date}</p>
+              <div className="text-xs md:text-base pr-0 lg:pr-8">{schedule?.day}</div>
+            </div>
+            <div className="text-[#0A142F] text-sm lg:text-base space-y-4">
               <div>
                 <p>Duration: {schedule?.registrationDuration}</p>
                 <div className="flex items-center gap-2 pl-2">
@@ -40,8 +42,6 @@ const ScheduleSection = ({ schedules }: { schedules: TSchedule[] }) => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="pr-8">{schedule?.day}</div>
         </div>
       ))}
     </>

@@ -6,15 +6,16 @@ import {useRouter} from "next/navigation";
 
 const ConferenceItem = ({ conference, index }) => {
   const router = useRouter()
+
   return (
-    <div onClick={() => router.push(`/conference/${conference?.id}`)} className="flex gap-3 md:gap-0 md:block">
+    <div onClick={() => router.push(`/conference/${conference?._id}`)} className="flex gap-3 md:gap-0 md:block">
       <div className="block md:hidden mt-8">
           <Image src={stepIcon} alt="Step" className="h-12 w-12" />
           <div className="flex justify-center h-full mt-[5px]">
             <div
               className={`${
                 index === 4 ? "hidden" : "block"
-              } w-[2px] bg-light-gray h-full`}
+              } ${index + 1 === conference.id ? 'bg-primary' : 'bg-light-gray'}  w-[2px] h-full`}
             ></div>
           </div>
         </div>
@@ -46,7 +47,7 @@ const ConferenceItem = ({ conference, index }) => {
             <div
               className={`${
                 index === 4 ? "hidden" : "block"
-              } w-[2px] bg-light-gray h-full`}
+              } ${index + 1 === conference.id ? 'bg-primary' : 'bg-light-gray'}  w-[2px] h-full`}
             ></div>
           </div>
         </div>

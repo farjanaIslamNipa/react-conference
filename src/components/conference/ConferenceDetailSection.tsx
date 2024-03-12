@@ -33,8 +33,16 @@ const ConferenceDetailSection = ({
       name: "Speaker",
       element: <SpeakerSection speakers={conference?.speakers} />,
     },
-    { id: 3, name: "Schedule", element:<ScheduleSection schedules={conference?.schedules} />  },
-    { id: 4, name: "Sponsor", element:<SponsorSection sponsors={conference?.sponsors} />},
+    { 
+      id: 3,
+      name: "Schedule", 
+      element:<ScheduleSection schedules={conference?.schedules} />  
+    },
+    { 
+      id: 4, 
+      name: "Sponsor", 
+      element:<SponsorSection sponsors={conference?.sponsors} />
+    },
   ]);
 
   return (

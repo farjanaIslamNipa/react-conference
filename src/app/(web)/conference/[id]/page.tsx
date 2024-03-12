@@ -7,14 +7,6 @@ interface TParams {
     id: string;
   };
 }
-export const generateStaticParams = async () => {
-  const res = await fetch('https://react-conference-backend-ten.vercel.app/api/v1/conferences');
-  const conference = await res.json();
-
-  return conference?.data?.slice(0, 3).map((conference: TConference) => ({
-    id: String(conference.id),
-  }));
-};
 
 const ConferencePage = async ({ params }: TParams) => {
 

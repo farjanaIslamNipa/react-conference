@@ -1,6 +1,5 @@
 import Image from "next/image";
 import {TSponsor} from "../..";
-import sponsorImg from "../../assets/sponsor-1.png";
 
 
 const SponsorSection = ({sponsors} : {sponsors: TSponsor[]}) => {

@@ -26,7 +26,7 @@ const Navbar = () => {
                 { "w-full": expand }
               )}
             >
-            <div className="flex flex-col md:flex-row items-start md:items-center gap-2 pt-4 md:pt-0 w-[70%] md:w-full bg-white md:bg-transparent h-screen md:h-auto">
+            <div className="flex flex-col md:flex-row items-start md:items-center gap-2 pt-4 md:pt-0 w-[70%] md:w-full bg-white md:bg-transparent h-screen md:h-auto z-50">
                 {expand && (
                   <div className="absolute right-6 top-[30px] block md:hidden">
                     <button

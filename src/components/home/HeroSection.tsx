@@ -35,7 +35,7 @@ const HeroSection = () => {
           />
         </div>
         <div className="grid grid-cols-12 gap-x-0 md:gap-x-4">
-          <div className="col-span-12 lg:col-span-7 z-50">
+          <div className="col-span-12 lg:col-span-7 z-20">
             <div className="flex justify-center md:justify-end">
               <div>
                 <h1 className="hero-title">React</h1>
@@ -67,7 +67,7 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          <div className="col-span-12 lg:col-span-5 z-50 place-self-end">
+          <div className="col-span-12 lg:col-span-5 z-20 place-self-end">
             <div className="w-full flex justify-center lg:justify-end mt-8 lg:mt-0 pl-0 md:pl-10 relative">
               <Image src={headerRightImg} alt="Banner" />
               <Image
